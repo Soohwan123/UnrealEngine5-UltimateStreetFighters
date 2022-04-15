@@ -737,28 +737,7 @@ void AUltimateSFCharacter::M_DodgingFire_Implementation(bool Upper, bool isDodgi
 
 
 
-//void AUltimateSFCharacter::PunchTrace()
-//{
-//	TArray<TEnumAsByte<EObjectTypeQuery>> PawnArray;
-//	PawnArray.Add(EObjectTypeQuery::ObjectTypeQuery1(FCollisionObjectQueryParams::FCollisionObjectQueryParams(ECC_Pawn)));
-//	TArray<AActor*> param;
-//	FHitResult HitResult;
-//	FLinearColor TraceColor = FLinearColor::Red;
-//	FLinearColor TraceHitColor = FLinearColor::Green;
-//
-//	
-//	if (bIsPunching == true)
-//	{
-//		if (bIsLeftAttack == true)
-//		{
-//			UKismetSystemLibrary::CapsuleTraceSingleForObjects(GetWorld(), this->GetMesh()->GetSocketLocation("hand_l"),
-//				this->GetMesh()->GetSocketLocation("hand_l"), 22.0f, 22.0f, PawnArray, false, param, EDrawDebugTrace::None, HitResult , true, TraceColor, TraceHitColor, 5.0f);
-//	
-//
-//		}
-//
-//	}
-//}
+
 
 
 // ----------------Substituted by blueprint due to technical issues--------------------------------
@@ -781,6 +760,29 @@ void AUltimateSFCharacter::M_DodgingFire_Implementation(bool Upper, bool isDodgi
 //	bIsUpper = false;
 //}
 
+
+//void AUltimateSFCharacter::PunchTrace()
+//{
+//	TArray<TEnumAsByte<EObjectTypeQuery>> PawnArray;
+//	PawnArray.Add(EObjectTypeQuery::ObjectTypeQuery1(FCollisionObjectQueryParams::FCollisionObjectQueryParams(ECC_Pawn)));
+//	TArray<AActor*> param;
+//	FHitResult HitResult;
+//	FLinearColor TraceColor = FLinearColor::Red;
+//	FLinearColor TraceHitColor = FLinearColor::Green;
+//
+//	
+//	if (bIsPunching == true)
+//	{
+//		if (bIsLeftAttack == true)
+//		{
+//			UKismetSystemLibrary::CapsuleTraceSingleForObjects(GetWorld(), this->GetMesh()->GetSocketLocation("hand_l"),
+//				this->GetMesh()->GetSocketLocation("hand_l"), 22.0f, 22.0f, PawnArray, false, param, EDrawDebugTrace::None, HitResult , true, TraceColor, TraceHitColor, 5.0f);
+//	
+//
+//		}
+//
+//	}
+//}
 
 //void AUltimateSFCharacter::PivotAnimationsController()
 //{

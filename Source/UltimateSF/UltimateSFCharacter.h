@@ -39,14 +39,6 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 		float BaseLookUpRate;
 
-	/*Health*/
-	UPROPERTY(replicated, EditAnywhere, BlueprintReadWrite, Category = Default)
-		float Health = 100.f;
-
-	/*Stamina*/
-	UPROPERTY(replicated, EditAnywhere, BlueprintReadWrite, Category = Default)
-		float Stamina = 100.f;
-
 	/*WalkSpeed*/
 	UPROPERTY(replicated, EditAnywhere, BlueprintReadWrite, Category = Default)
 		float WalkSpeed;
