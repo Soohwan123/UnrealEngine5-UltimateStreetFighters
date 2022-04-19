@@ -83,6 +83,53 @@ public:
 	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite, Category = Combat)
 		bool bIsLeftAttack = false;
 
+
+	/*---------------- - bool variables for getting hit animations--------------------------------------*/
+
+	//Punches
+	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite, Category = Combat)
+		bool bIsJabbing = false;
+
+
+	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite, Category = Combat)
+		bool bIsLeftHooking = false;
+
+
+	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite, Category = Combat)
+		bool bIsRightHooking = false;
+
+
+	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite, Category = Combat)
+		bool bIsStraightPunching = false;
+
+
+	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite, Category = Combat)
+		bool bIsUpperCutting = false;
+
+
+	//Kicks
+	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite, Category = Combat)
+		bool bIsHighKicking = false;
+
+
+	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite, Category = Combat)
+		bool bIsLeftMiddleKicking = false;
+
+
+	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite, Category = Combat)
+		bool bIsRightMiddleKicking = false;
+
+
+	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite, Category = Combat)
+		bool bIsLowKicking = false;
+
+	/*---------------- - bool variables for getting hit animations--------------------------------------*/
+
+
+	/*Variable for character to stand up*/
+	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite, Category = Combat)
+		bool bIsRagdollMode = false;
+
 	/*Damage dealt value*/
 	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite, Category = Combat)
 		float DamageDealt;
